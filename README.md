@@ -1,4 +1,4 @@
-# Hoising answers
+# Hoisting answers
 
 1. The output is 7, since the `test` variable was initialized at the top of
    the scope, it was ready to be used within all the scope. Besides that, the
