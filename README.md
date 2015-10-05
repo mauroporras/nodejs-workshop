@@ -11,3 +11,20 @@
 4. We get an error, since we tried to call a function which had not been yet
    initialized, only hoisted. We can solve it by moving the function
    initialization before the call.
+
+
+# Day 2 answers
+
+The problem with that code is that all the functions will hold a reference to the same `i` variable, and since its final value is `10`, all of them print 10. Here's the fix:
+
+````javascript
+var myTimeout = function(n) {
+  setTimeout(function() {
+    console.log(n);
+  }, 1000);
+};
+
+for(i = 0; i < 10; i++) {
+  myTimeout(i);
+}
+````
