@@ -1,0 +1,27 @@
+{
+  "name": "college",
+  "version": "1.0.0",
+  "description": "College for NodeJS workshop.",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mporras/nodejs-workshop.git"
+  },
+  "keywords": [
+    "college",
+    "workshop"
+  ],
+  "author": "Mauro Porras P.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mporras/nodejs-workshop/issues"
+  },
+  "homepage": "https://github.com/mporras/nodejs-workshop#readme",
+  "dependencies": {
+    "jslint": "^0.9.3",
+    "lodash": "^3.10.1"
+  }
+}
